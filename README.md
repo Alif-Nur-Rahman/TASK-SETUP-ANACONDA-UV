@@ -32,6 +32,7 @@ UV adalah alat manajemen lingkungan Python yang memungkinkan pembuatan, pengelol
 **1. Download Installer Anaconda**
    **Apa**
    File installer untuk memasang Anaconda ke komputer Anda.
+   
    **Kenapa**
    Anaconda menyediakan Python dan paket data science siap pakai dalam satu instalasi.
 
@@ -40,7 +41,8 @@ UV adalah alat manajemen lingkungan Python yang memungkinkan pembuatan, pengelol
     - Pilih versi sesuai OS Anda (Windows/macOS/Linux)
     - Klik tombol Download
 
-    ![image][Cuplikan layar 2025-06-13 232537](https://github.com/user-attachments/assets/f5c3dfcd-edf2-43c3-8f58-b68f235e6167)
+    ![image](![Cuplikan layar 2025-06-13 232537](https://github.com/user-attachments/assets/4ec13ae6-ea91-421a-acd2-5f93e04acd01)
+
 
   #    Do's:
 	- Download dari situs resmi Anaconda
