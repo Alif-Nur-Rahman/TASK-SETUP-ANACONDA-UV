@@ -41,7 +41,8 @@ UV adalah alat manajemen lingkungan Python yang memungkinkan pembuatan, pengelol
     - Pilih versi sesuai OS Anda (Windows/macOS/Linux)
     - Klik tombol Download
 
-    ![Cuplikan layar 2025-06-13 232537](https://github.com/user-attachments/assets/1b5633a4-4887-41b3-afb1-cdcce401434e)
+![Cuplikan layar 2025-06-13 232537](https://github.com/user-attachments/assets/2a9d92b4-fc6d-47de-8292-25445ac868df)
+
 
 
 
@@ -58,11 +59,13 @@ UV adalah alat manajemen lingkungan Python yang memungkinkan pembuatan, pengelol
 
 **2** Akan muncul wizard instalasi — tinggal klik “Next” beberapa kali.
 
- ![image][Cuplikan layar 2025-06-13 005255](https://github.com/user-attachments/assets/92cbdd93-f644-4c37-a1fd-9923d1018443)
+ ![Cuplikan layar 2025-06-13 005255](https://github.com/user-attachments/assets/b5bf50ad-489d-4dcb-880d-05e0f211d61f)
+
 
 **3** Lalu ketika muncul pilihan, Pilih ini :
 
- ![image]([Cuplikan layar 2025-06-13 231237](https://github.com/user-attachments/assets/7965fda8-10fd-4960-bfc4-8e7a32f14401)
+ ![Cuplikan layar 2025-06-13 231237](https://github.com/user-attachments/assets/295ef2ac-9af8-44ac-a814-2e034768edc2)
+
 
 “Add Anaconda to my PATH environment variable”
 
@@ -90,7 +93,8 @@ Biar kamu **TIDAK** kena masalah di tengah jalan, misalnya conda nggak dikenali 
 
 **3** jika muncul sesuatu seperti ini:
 
- ![image][Cuplikan layar 2025-06-13 232109](https://github.com/user-attachments/assets/f14c155d-2f60-4c29-8c9a-19e7dbd7cbce)
+ ![Cuplikan layar 2025-06-13 232109](https://github.com/user-attachments/assets/84a72b7d-f47c-4b89-baa4-b7552902f7bb)
+
 
 berarti Anaconda kamu udah sukses ke-install dan siap dipakai! 🎉
 
@@ -108,11 +112,15 @@ Kadang setelah instalasi, Anaconda belum otomatis bisa dipanggil dari terminal a
 
 # 🪜 Langkah-langkah di Windows:
 **1** Tekan Windows + R, ketik sysdm.cpl, tekan Enter.
+
 **2** Buka tab "Advanced", lalu klik tombol "Environment Variables…"
+
 **3** Di bagian bawah (System variables), cari dan klik Path, lalu klik Edit.
+
 **4** Klik New, lalu tambahkan dua baris ini (ganti NAMA_ANDA dengan nama user di laptop kamu):
 
- ![image][Cuplikan layar 2025-06-13 234228](https://github.com/user-attachments/assets/c9c6bc1f-248b-49d5-beb1-5c66e89f1aba)
+ ![Cuplikan layar 2025-06-13 234228](https://github.com/user-attachments/assets/663b5270-73f4-478b-917d-90dc78a0fd49)
+
 
 # ✅ Do’s (Yang Sebaiknya Dilakukan):
 - Tutup dulu terminal/CMD yang lama, terus buka yang baru setelah kamu ubah PATH — biar setting barunya kebaca dengan benar.
@@ -138,7 +146,6 @@ Lingkungan Conda adalah ruang kerja virtual yang terisolasi untuk Python dan pak
 - Jalankan perintah berikut untuk membuat environment:
 # conda create -p venv python=3.12
 
-![image][Cuplikan layar 2025-06-14 000153](https://github.com/user-attachments/assets/ae3d97b9-bca0-4658-ad55-8a72590f5fe3)
 
 # Catatan:
 
@@ -146,7 +153,8 @@ Lingkungan Conda adalah ruang kerja virtual yang terisolasi untuk Python dan pak
 - python=3.12 menentukan versi Python yang digunakan Saat muncul pertanyaan: Proceed ([y]/n)?
 # ➡️ Ketik y lalu tekan Enter
 
- ![image][Cuplikan layar 2025-06-13 235412](https://github.com/user-attachments/assets/d02f5441-974a-4ad1-aef6-87a3a21766a2)
+![Cuplikan layar 2025-06-14 215211](https://github.com/user-attachments/assets/70e4c7ec-454f-403d-af87-80443f0f3c92)
+
 
 # Setelah selesai, aktifkan environment dengan:
 conda activate ./venv
@@ -154,7 +162,9 @@ conda activate ./venv
 # Prompt terminal akan berubah menjadi:
 (venv) C:\Users\User\ghost_intellix>
 
-![image][Cuplikan layar 2025-06-14 161727](https://github.com/user-attachments/assets/c0eec7f7-a198-4365-b868-8341338e8d32)
+
+![Cuplikan layar 2025-06-14 215816](https://github.com/user-attachments/assets/602789b8-1d04-4bd6-b106-e0aaccfc5e22)
+
 
 
 Artinya environment berhasil diaktifkan.
@@ -208,12 +218,15 @@ Jangan utak-atik folder .venv secara manual, biarin UV yang ngurus.
 
 ## 🚀 Langkah-langkah Bikin dan Aktifkan Environment
 1. Ketik:
-uv venv
+**uv venv**
 2. Aktifkan:
-.venv\Scripts\activate
+**.venv\Scripts\activate**
+
+
 Prompt berubah ke (ghost_intellixuv) C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv>. 3. Ciri-ciri environment sudah aktif: Prompt di terminal bakal berubah, misalnya jadi:
 
-(ghost_intellixuv) C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv>
+**(ghost_intellixuv) C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv>**
+
 Nah, kalau udah kayak gitu, berarti kamu siap lanjut install paket dan mulai ngoding! 😎
 
 ## 📦 Menginstal Paket dengan UV
@@ -234,58 +247,109 @@ Jangan campur UV dan pip dalam proyek yang sama, nanti bisa bikin konflik depend
 - **uv add pandas**
 output seperti
 
-- **conda deactivate**
-Kalau udah, prompt bakal balik ke direktori biasa. 2. Install UV: Ketik di terminal atau CMD:
 
-- **pip install uv**
-Tunggu sampai muncul tulisan:
-  [image][Cuplikan layar 2025-06-14 003008](https://github.com/user-attachments/assets/38312139-a52c-4dab-9018-84990bbcd21c)
+![Cuplikan layar 2025-06-14 221640](https://github.com/user-attachments/assets/0fee4d95-2551-43b5-a9d4-f533cfd3d7d3)
 
-Successfully installed uv-0.7.12
-Artinya UV berhasil dipasang 🎉
 
-## 🗂️ Tentang Folder ghost_intellixuv
-Nanti kita bakal pakai perintah uv init buat bikin folder baru bernama ghost_intellixuv.
+# 📝 Catatan Penting:
 
-# 📌 Catatan penting:
-1. Kamu nggak perlu bikin folder itu manual.
-2. UV akan otomatis bikin folder dan isi dasarnya waktu kamu jalanin uv init.
-3. Setelah itu, kamu bisa ketik:
-- **dir**
+UV jauh lebih cepat dibanding pip, apalagi kalau kamu install paket yang punya banyak “anak paket” alias dependency tree yang besar — contohnya pandas, scikit-learn, atau tensorflow.
 
-## 🧪 Membuat & Mengaktifkan Lingkungan UV
-# Apa sih maksudnya?
-Lingkungan virtual (virtual environment) itu kayak “dunia kecil” khusus buat proyek kamu. Semua pustaka yang diinstal akan disimpan di situ — jadi nggak nyampur sama proyek lain.
+# 💡 Jadi kalau proyekmu makin kompleks, UV justru makin terasa manfaatnya: lebih cepat, lebih efisien, dan tetap rapi..
 
-# Kenapa penting?
-Biar tiap proyek punya ruang sendiri dan gak bikin konflik, apalagi kalau beda versi pustaka.
+# 🚶‍♂️Langkah Menonaktifkan:
 
-# ✅ do's (Lakukan ini):
-Aktifkan environment sebelum install paket.
+1. Diterminal, ketik:
 
-# ❌ don'ts (Jangan lakukan ini):
-Jangan utak-atik folder .venv secara manual, biarin UV yang ngurus.
+**.venv\Scripts\deactivate**
 
-## 🚀 Langkah-langkah Bikin dan Aktifkan Environment
-# 1. Ketik:
-- **uv venv**
-# 2. Aktifkan:
-- **.venv\Scripts\activate**
-Prompt berubah ke (ghost_intellixuv) C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv>. 3. Ciri-ciri environment sudah aktif: Prompt di terminal bakal berubah, misalnya jadi:
+2. Setelah itu, prompt akan berubah kembali seperti semula, misalnya:
 
-(ghost_intellixuv) C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv>
-Nah, kalau udah kayak gitu, berarti kamu siap lanjut install paket dan mulai ngoding! 😎
+**C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv>**
 
-# 📦 Menginstal Paket dengan UV
-# Apa sih ini?
-UV itu punya fitur keren buat install paket super cepat lewat perintah mirip pip. Tapi di UV, kita pakenya uv add.
+Artinya kamu sudah keluar dari lingkungan virtual UV.
 
-Kenapa pakai UV?
-Karena UV install paketnya kilat banget, terutama kalau paketnya besar kayak pandas, numpy, atau matplotlib. Cocok buat kamu yang gak mau nunggu lama! ⚡
+## Daftar Paket yang Direkomendasikan
+**Apa: Paket penting untuk Data Science, Machine Learning, dan AI.**
 
-# ✅ do's (Lakukan ini):
-Install paket pakai uv add (bukan pip install).
+**Kenapa: Memastikan alat yang diperlukan tersedia.**
 
-# ❌ don'ts (Jangan lakukan ini):
-Jangan campur UV dan pip dalam proyek yang sama, nanti bisa bikin konflik dependensi.
+**Do's: Perbarui versi paket secara berkala.**
 
+**Don'ts: Jangan instal paket yang tidak diperlukan.**
+
+
+**Langkah-langkah:**
+
+1 Buat requitments.txt:
+
+
+![Cuplikan layar 2025-06-14 225023](https://github.com/user-attachments/assets/abd04c3f-1047-4e66-8114-63b6723a5959)
+
+2. Instal:
+   
+*uv add -r requirements.txt*
+
+3. atau
+
+*pip install -r requirements.txt*
+
+**🛠️ Panduan Pemecahan Masalah di Anaconda**
+
+**🔧 Masalah 1: conda Tidak Dikenali di Terminal**
+
+Gejala:
+
+*'conda' is not recognized as an internal or external command*
+
+Penyebab:
+
+*PATH Anaconda belum terdaftar di sistem.*
+
+**Solusi:**
+1.Pastikan Anaconda sudah diinstal.
+2.Tambahkan PATH secara manual (jika belum otomatis):
+3.Buka System Properties → Environment Variables.
+4.Di bagian “System variables”, cari Path → klik Edit.
+5.Tambahkan jalur berikut:
+
+*C:\Users\ACER\anaconda3*
+*C:\Users\ACER\anaconda3\Scripts*
+
+6.Jalankan perintah:
+
+*conda init cmd.exe*
+7.Tutup dan buka kembali terminal.
+
+#🔧 Masalah 2: Script execution is disabled (saat aktivasi environment)
+Gejala:
+
+*File C:... activate.ps1 cannot be loaded because running scripts is disabled*
+
+**Penyebab:**
+PowerShell tidak mengizinkan eksekusi skrip.
+
+**Solusi:**
+Jalankan PowerShell sebagai Administrator.
+
+**Ketik:**
+*Set-ExecutionPolicy RemoteSigned*
+Ketik Y untuk mengonfirmasi.
+
+# Kesimpulan
+
+1. Anaconda = “semua‑dalam‑satu” untuk data science; instal sekali, langsung jalan.
+
+2. Conda = motor di balik Anaconda; andal untuk kelola paket lintas‑bahasa & environment terisolasi.
+   
+ 3.UV = solusi modern yang super cepat & ringan ketika Anda hanya butuh Python wheels dari PyPI.
+
+
+# Pilihan cepat:
+
+1. Data/ML berat & paket C/CUDA → Conda/Anaconda
+
+2. Proyek Python murni & butuh kecepatan → UV
+
+
+### Semoga Bermanfaat, Terimakasih...SEE YAAAAAAAAA!!!!!👋👋
