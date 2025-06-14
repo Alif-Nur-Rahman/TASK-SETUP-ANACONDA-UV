@@ -1,6 +1,9 @@
 ### TASK-SETUP-ANACONDA-UV
+
 Nama : **Alif Nur Rahman**
+
 No Absen : **10.028.DB2025**
+
 Batch : **10**
 
 ## Apa Itu Anaconda dan Conda?
@@ -37,7 +40,7 @@ UV adalah alat manajemen lingkungan Python yang memungkinkan pembuatan, pengelol
     - Pilih versi sesuai OS Anda (Windows/macOS/Linux)
     - Klik tombol Download
 
-    ![image](![Cuplikan layar 2025-06-13 232537](https://github.com/user-attachments/assets/f5c3dfcd-edf2-43c3-8f58-b68f235e6167)
+    ![image][Cuplikan layar 2025-06-13 232537](https://github.com/user-attachments/assets/f5c3dfcd-edf2-43c3-8f58-b68f235e6167)
 
   #    Do's:
 	- Download dari situs resmi Anaconda
@@ -52,11 +55,11 @@ UV adalah alat manajemen lingkungan Python yang memungkinkan pembuatan, pengelol
 
 **2** Akan muncul wizard instalasi — tinggal klik “Next” beberapa kali.
 
- ![image](![Cuplikan layar 2025-06-13 005255](https://github.com/user-attachments/assets/92cbdd93-f644-4c37-a1fd-9923d1018443)
+ ![image][Cuplikan layar 2025-06-13 005255](https://github.com/user-attachments/assets/92cbdd93-f644-4c37-a1fd-9923d1018443)
 
 **3** Lalu ketika muncul pilihan, Pilih ini :
 
- ![image](![Cuplikan layar 2025-06-13 231237](https://github.com/user-attachments/assets/7965fda8-10fd-4960-bfc4-8e7a32f14401)
+ ![image]([Cuplikan layar 2025-06-13 231237](https://github.com/user-attachments/assets/7965fda8-10fd-4960-bfc4-8e7a32f14401)
 
 “Add Anaconda to my PATH environment variable”
 
@@ -84,7 +87,7 @@ Biar kamu **TIDAK** kena masalah di tengah jalan, misalnya conda nggak dikenali 
 
 **3** jika muncul sesuatu seperti ini:
 
- ![image](![Cuplikan layar 2025-06-13 232109](https://github.com/user-attachments/assets/f14c155d-2f60-4c29-8c9a-19e7dbd7cbce)
+ ![image][Cuplikan layar 2025-06-13 232109](https://github.com/user-attachments/assets/f14c155d-2f60-4c29-8c9a-19e7dbd7cbce)
 
 berarti Anaconda kamu udah sukses ke-install dan siap dipakai! 🎉
 
@@ -106,7 +109,7 @@ Kadang setelah instalasi, Anaconda belum otomatis bisa dipanggil dari terminal a
 **3** Di bagian bawah (System variables), cari dan klik Path, lalu klik Edit.
 **4** Klik New, lalu tambahkan dua baris ini (ganti NAMA_ANDA dengan nama user di laptop kamu):
 
- ![image](![Cuplikan layar 2025-06-13 234228](https://github.com/user-attachments/assets/c9c6bc1f-248b-49d5-beb1-5c66e89f1aba)
+ ![image][Cuplikan layar 2025-06-13 234228](https://github.com/user-attachments/assets/c9c6bc1f-248b-49d5-beb1-5c66e89f1aba)
 
 # ✅ Do’s (Yang Sebaiknya Dilakukan):
 - Tutup dulu terminal/CMD yang lama, terus buka yang baru setelah kamu ubah PATH — biar setting barunya kebaca dengan benar.
@@ -132,7 +135,7 @@ Lingkungan Conda adalah ruang kerja virtual yang terisolasi untuk Python dan pak
 - Jalankan perintah berikut untuk membuat environment:
 # conda create -p venv python=3.12
 
-![image](![Cuplikan layar 2025-06-14 000153](https://github.com/user-attachments/assets/ae3d97b9-bca0-4658-ad55-8a72590f5fe3)
+![image][Cuplikan layar 2025-06-14 000153](https://github.com/user-attachments/assets/ae3d97b9-bca0-4658-ad55-8a72590f5fe3)
 
 # Catatan:
 
@@ -140,15 +143,16 @@ Lingkungan Conda adalah ruang kerja virtual yang terisolasi untuk Python dan pak
 - python=3.12 menentukan versi Python yang digunakan Saat muncul pertanyaan: Proceed ([y]/n)?
 # ➡️ Ketik y lalu tekan Enter
 
- ![image](![Cuplikan layar 2025-06-13 235412](https://github.com/user-attachments/assets/d02f5441-974a-4ad1-aef6-87a3a21766a2)
+ ![image][Cuplikan layar 2025-06-13 235412](https://github.com/user-attachments/assets/d02f5441-974a-4ad1-aef6-87a3a21766a2)
 
 # Setelah selesai, aktifkan environment dengan:
 conda activate ./venv
 
 # Prompt terminal akan berubah menjadi:
-(venv) C:\Users\ACER\ghost_intellix>
+(venv) C:\Users\User\ghost_intellix>
 
-![image](![Cuplikan layar 2025-06-14 001232](https://github.com/user-attachments/assets/90a7f9c2-4a3a-4257-9b8a-d245058ac3da)
+![image][Cuplikan layar 2025-06-14 161727](https://github.com/user-attachments/assets/c0eec7f7-a198-4365-b868-8341338e8d32)
+
 
 Artinya environment berhasil diaktifkan.
 
@@ -232,7 +236,7 @@ Kalau udah, prompt bakal balik ke direktori biasa. 2. Install UV: Ketik di termi
 
 - **pip install uv**
 Tunggu sampai muncul tulisan:
-  [image](![Cuplikan layar 2025-06-14 003008](https://github.com/user-attachments/assets/38312139-a52c-4dab-9018-84990bbcd21c)
+  [image][Cuplikan layar 2025-06-14 003008](https://github.com/user-attachments/assets/38312139-a52c-4dab-9018-84990bbcd21c)
 
 Successfully installed uv-0.7.12
 Artinya UV berhasil dipasang 🎉
@@ -269,8 +273,8 @@ Prompt berubah ke (ghost_intellixuv) C:\Users\NAMA_ANDA\ghost_intellix\ghost_int
 (ghost_intellixuv) C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv>
 Nah, kalau udah kayak gitu, berarti kamu siap lanjut install paket dan mulai ngoding! 😎
 
-📦 Menginstal Paket dengan UV
-Apa sih ini?
+# 📦 Menginstal Paket dengan UV
+# Apa sih ini?
 UV itu punya fitur keren buat install paket super cepat lewat perintah mirip pip. Tapi di UV, kita pakenya uv add.
 
 Kenapa pakai UV?
@@ -281,3 +285,4 @@ Install paket pakai uv add (bukan pip install).
 
 # ❌ don'ts (Jangan lakukan ini):
 Jangan campur UV dan pip dalam proyek yang sama, nanti bisa bikin konflik dependensi.
+
